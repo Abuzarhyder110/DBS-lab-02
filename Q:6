@@ -1,0 +1,14 @@
+Select * froom Employees
+Where R_address = 'Nawabshah' and R_address = 'Larkana';
+
+Select Emp_Id,Salary,R_address from Employees
+where Salary >=30000;
+
+Select Name,Age,R_address from Employees
+where age <=27;
+
+Select * from Employees 
+Where R_address!='Larkana';
+
+Select Name,Salary,R_address from Employees
+where salary <=65000 or R_address='Lahore'
