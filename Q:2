@@ -1,0 +1,16 @@
+CREATE TABLE IF NOT EXISTS Employees (
+    Emp_Id INTEGER PRIMARY KEY AUTOINCREMENT,
+    Name CHAR(20) NOT NULL,
+    Age INT NOT NULL,
+    R_address VCHAR(25),
+    Salary FLOAT NOT NULL
+);
+
+INSERT INTO Employees (Name, Age, R_address, Salary) VALUES
+('Abuzar', 23, 'Karachi', 70000),
+('Dilawar', 29, 'Nawabshah', 30000),
+('Danish', 30, 'Lahore', 65000),
+('Muzamil', 33, 'Islamabad', 40000),
+('Ali', 20, 'Sukkur', 80000),
+('Mohsin', 29, 'Larkana', 30000),
+('Zayn', 21, 'Nawabshah', 75000),
