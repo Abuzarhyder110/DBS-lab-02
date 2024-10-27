@@ -1,0 +1,10 @@
+CREATE DATABSE campany;
+USE campany;
+
+CREATE TABLE Employee (
+    Emp_Id INT PRIMARY KEY,
+    Name VCHAR(100)
+    Age INT,
+    Salary DECIMAL(10, 2)
+    R_address VCHAR(255)
+);
